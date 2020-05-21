@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name Inline-Math-For-Notion.So
-// @namespace https://github.com/mlzc/notion-inline-math
-// @version 0.01
+// @name notion-inline-math-render-by-inlineCode
+// @namespace https://github.com/MLZC/inline-math-equation-for-notion
+// @version 0.0.1
 // @match https://www.notion.so/*
 // @grant GM_addStyle
 // @require         https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
@@ -9,9 +9,9 @@
 // ==/UserScript==
 
 // Instructions for use:
-//   - Make sure you have at least one normal math block on your page (I'am not sure this step is necessary, but according to my test, it can work without math block)
-//   - Use inline code starting with "math:". For example: `$E=mc^2$`, or $E=mc^2$ select the string before and press command + E
-//   - Press Alt to rerender all inline math. You can of course change the shortcut in the code below.
+//   - Make sure you have at least one normal math block on your page
+//   - Use inline code starting with "$" and end with "$". For example: `$E=mc^2$`, or $E=mc^2$ select the string before and press command + E
+//   - Press `Alt` to rerender all inline math. You can of course change the shortcut in the code below.
 //   - The inline math will revert to inline code when the block becomes active.
 
 // Acknowledgement
