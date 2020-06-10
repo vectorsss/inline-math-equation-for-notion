@@ -1,5 +1,11 @@
 # inline-math-equation-for-notion
 
+
+**Since Notion already supports inline math as of today. The project no longer needs to be maintained.**
+
+This is the official guide. [Math Equations Guide](https://www.notion.so/Math-equations-b4e9e4e03677413481a4910e8bd328c1#48cd3615f70e448c9bff9ebc717f41b8)
+
+
 This repository include three **js** scripts.
 
 - notion-inline-math-equations-web.js
